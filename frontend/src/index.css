@@ -3,3 +3,12 @@ main {
 
   /* min-width:90vh; */
 }
+
+h3 {
+  padding: 1 rem;
+}
+
+.rating span {
+  margin: 0.1 rem;
+}
+
