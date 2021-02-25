@@ -1,7 +1,7 @@
 {
   "name": "e-commerce-mern",
   "version": "1.0.0",
-  "description": "Mern E-commerce",
+  "description": "Mern E-commerce web application",
   "main": "server.js",
   "type": "module",
   "scripts": {
