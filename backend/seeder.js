@@ -28,12 +28,21 @@ const importData = async () => {
 
     await Product.insertMany(sampleProducts)
 
+<<<<<<< HEAD
     console.log('Data Imported!'.green.inverse)
     process.exit()
   } catch (error) {
     console.error(`${error}`.red.inverse)
     process.exit(1)
   }
+=======
+        console.log('Data imported'.green.inverse)
+        process.exit()
+    } catch (e) {
+        console.log(`${e}`.red.inverse)
+        process.exit(1)
+    }
+>>>>>>> 86efc629b3932d4c7ee9f82799474396db160fb0
 }
 
 const destroyData = async () => {

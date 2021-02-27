@@ -1,5 +1,6 @@
 main {
   min-height: 80vh;
+<<<<<<< HEAD
 }
 
 body {
@@ -24,6 +25,8 @@ body {
 
 .search-btn {
   background-color: rgb(66, 138, 72);
+=======
+>>>>>>> 86efc629b3932d4c7ee9f82799474396db160fb0
 }
 
 h3 {

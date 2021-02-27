@@ -13,6 +13,7 @@ import uploadRoutes from './routes/uploadRoutes.js'
 
 dotenv.config()
 
+//connect Database
 connectDB()
 
 const app = express()
@@ -52,9 +53,15 @@ app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000
 
+<<<<<<< HEAD
 app.listen(
   PORT,
   console.log(
     `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold
   )
 )
+=======
+app.listen(PORT, () => {
+    console.log(`Server running in ${process.env.NODE_ENV} on port ${PORT}`.yellow.bold)
+}) 
+>>>>>>> 86efc629b3932d4c7ee9f82799474396db160fb0
