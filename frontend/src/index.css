@@ -1,7 +1,29 @@
 main {
   min-height: 80vh;
+}
 
-  /* min-width:90vh; */
+body {
+  background-color: rgb(42, 46, 38);
+}
+
+.carousel {
+  background-color: rgb(29, 82, 82);
+}
+
+.nav {
+  background-color: rgb(250, 248, 248);
+  color: rgb(247, 242, 242);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.form {
+  color: #fff;
+}
+
+.search-btn {
+  background-color: rgb(66, 138, 72);
 }
 
 h3 {
@@ -9,6 +31,7 @@ h3 {
 }
 
 h1 {
+  color: #fff;
   font-size: 1.8rem;
   padding: 1rem 0;
 }
@@ -22,3 +45,38 @@ h2 {
   margin: 0.1rem;
 }
 
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+.foot {
+  color: #fff;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
