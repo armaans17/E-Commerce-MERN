@@ -1,5 +1,7 @@
                                               # E-Commerce-MERN
                                E-commerce web application using the MERN stack.
+                               
+                                   Node, Express, React, MongoDB - Mongoose
 
 <img width="1263" alt="1" src="https://user-images.githubusercontent.com/64493642/113366853-6c4ea380-9328-11eb-9888-1421f1728f01.PNG">
 
